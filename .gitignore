@@ -1,0 +1,62 @@
+# =========================
+# OS
+# =========================
+.DS_Store
+
+# =========================
+# IDE
+# =========================
+.idea/
+*.iml
+.vscode/
+
+# =========================
+# FLUTTER / DART
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# iOS Flutter
+ios/Flutter/.last_build_id
+
+# =========================
+# ANDROID
+# =========================
+android/build/
+**/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# =========================
+# PYTHON
+# =========================
+venv/
+__pycache__/
+*.pyc
+
+# =========================
+# SECRETS
+# =========================
+.env
+*.env
+google-services.json
+*firebase-adminsdk*.json
+
+# =========================
+# GENERATED FILES
+# =========================
+*.apk
+*.aab
+
+# =========================
+# REPORTS (SENİN HATAN BURADA)
+# =========================
+*.html
+*.log
+android/build/reports/
